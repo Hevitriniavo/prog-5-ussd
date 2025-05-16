@@ -29,7 +29,7 @@ export default tseslint.config(
             "check-file/filename-naming-convention": [
                 "error",
                 {
-                    "src/**/*.{js,ts}": "CAMEL_CASE",
+                    "src/**/*.{js,ts}": "SNAKE_CASE",
                 }
             ],
             "check-file/folder-naming-convention": [
